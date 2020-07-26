@@ -1,0 +1,26 @@
+/* Active Color */
+.container a mark,
+header .display-4,
+.about h1 span,
+.features i,
+.testimonials .carousel-item .lead span,
+.price-table .price-box p,
+.footer h3,
+.footer .copyright span
+{
+    color: #28A745;
+}
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active,
+.dropdown-item:hover,
+.dropdown-item:focus,
+.option-box .gear-checker
+{
+    background-color: #28A745;
+}
+.option-box .color-option, .testimonials .carousel-indicators .active{
+    border:2px solid #28A745;
+}
+.navbar-dark .navbar-nav .show > .nav-link{
+    border-bottom: 3px solid #28A745;
+}
+/* end Active color */

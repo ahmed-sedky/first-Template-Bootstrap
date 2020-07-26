@@ -1,0 +1,58 @@
+large screen:                  lg
+medium screen:                 md
+small screen:                  sm
+extra small screen:            xs
+
+//grid system :12 units
+//col-lg-4:
+
+col: column
+lg: large screen
+4 : 4 units from the grid system 
+
+//el class elly mbtktbo4 bya5od mn elly a3la mnh "y3ne mslan lw mk4bt4 el lg hya5od mn el medium"
+
+// d-lg-block d-md-none   " lw ktbna d-md-none bs hy3ml hidden kman llarge 34an akbr mnha"
+d: display
+lg:large  
+block
+
+//visible-xs-block  ~  hiddden-md
+//column reset
+<div class=" clearfix d-medium-block"></div> "a5tar 3ayez tzhr el clear fin"
+
+//column offset
+offset-lg-2
+
+//column ordering "push &pull"
+order-lg-8
+
+//order
+order-4
+
+//nesting
+img-fluid "for the image being responsive
+lead "in paragraphs to get rid off bootstrap style"
+
+//navbar
+class navbar "lazem nktbh"
+navbar-default "dh awel wa7ed 3ndna fe el mwk3"
+navbar-inverse "by3ml 3ks el alwan"
+bg-dark "for background black navbar"
+navbar-dark "for white text "
+fixed-top "34an ysbt fo2"
+data-target "hya elly btwghny aro7 fen bel zbt"
+active
+ml-auto "will make the navbar to the right
+mr-auto "will bring navbar to the left"
+
+        <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+//text-center "class"
+
+
+
+

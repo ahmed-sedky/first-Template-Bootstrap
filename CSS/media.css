@@ -1,0 +1,83 @@
+/* for xs screens "mobiles and tablets*/
+@media (max-width :549px){
+    .nav-link{
+        padding-top: 0px;
+        padding-bottom:0px ;
+        
+    }
+    .navbar-nav .nav-link {
+        padding-left: 20px;
+    }
+    .navbar-brand{
+        padding-left: 25px;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+    .subscribe .form-control{
+        margin:auto
+    }
+    .subscribe .btn{
+        margin-top: 20px;
+    }
+    .our-skills .btn{
+        margin-bottom: 20px;
+    }
+    .contact-us ,.shadow2{
+        min-height:800px
+    }
+    .a,.b,.c,.d{
+        min-height: 425px;
+    }
+}
+@media (min-width:550px) and (max-width:767px){
+    .nav-link{
+        padding-top: 0px;
+        padding-bottom:0px ;
+        
+    }
+    .navbar-nav .nav-link {
+        padding-left: 20px;
+    }
+    .navbar-brand{
+        padding-left: 25px;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+    .subscribe .form-control{
+        margin:auto
+    }
+    
+    .our-skills .btn{
+        margin-bottom: 20px;
+    }
+    .contact-us ,.shadow2{
+        min-height:650px
+    }
+    .a,.b,.c,.d{
+        min-height: 425px;
+    }
+}
+/* for small screens  */
+@media (min-width:768px) and (max-width:991px){
+    .a,.b,.c,.d{
+        min-height: 600px;
+    }
+    .contact-us ,.shadow2{
+        height:610px
+    }
+    .our-skills .progress{
+        height:42px
+    }
+}
+/* for medium screens*/
+@media (min-width:991px) and (max-width:1199px){
+    
+}
+/* for large screens*/
+@media (min-width:1200px){
+    .our-skills .btn{
+        margin-bottom: 40px;
+    }
+}

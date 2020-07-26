@@ -1,0 +1,577 @@
+
+.os{
+    background-color: gold;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.my-img{
+    background-color: #d3d3d35e;
+}
+.fparagraph{
+    padding:1.5em
+}
+.test{
+    height: 2000px;
+}
+body{
+    padding-top: 60px;
+    font-family: 'Lora', serif;
+}
+.container a mark{
+    background-color: transparent;
+}
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active{
+    border-radius: 5px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;}
+.navbar{
+    padding: 0;
+    font-size: 1.1em;
+    line-height: 2.5;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255 / 80%);
+}
+.navbar-brand{
+    font-size: 2.25rem;
+    line-height: 1.7;
+    padding: 0;
+}
+.dropdown-item{
+    background-color:#343a40 ;
+    color: white;
+    -webkit-transition: padding .5s ease;
+    -moz-transition: padding .5s ease;
+    -ms-transition: padding .5s ease;
+    -o-transition: padding .5s ease;
+    transition: padding .5s ease;
+}
+.dropdown-divider {
+    height: 0;
+    margin:  0;
+    overflow: hidden;
+    border-top: 2px solid white;
+}
+.navbar-dark .navbar-nav .show > .nav-link{
+    background-color: black;
+}
+.dropdown-menu{
+    margin: 0;
+    padding: 0;
+    width:220px;
+}
+.dropdown-item:hover,
+.dropdown-item:focus{
+    padding-left: 30px;
+    color: white;
+}
+.option-box{
+    position: fixed;
+    top:80px;
+    left:0;
+    z-index:99999;
+}
+.option-box .color-option{
+    background-color: #333;
+    color: #FFF;
+    padding:10px;
+    float: left;
+    width: 200px;
+}
+.option-box .color-option ul li{
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    cursor: pointer;
+    display: inline-block;
+}
+.hide{
+    display: none;
+}
+
+
+.option-box .gear-checker{
+    color: #FFF;
+    padding: 4px;
+    cursor: pointer;
+}
+header .carousel-item {
+    height: 80vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header .display-4{
+    font-weight: 400;
+}
+.lead {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(232 228 228);
+}
+
+header .carousel-caption {
+    background-color: rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+header .carousel-item {
+    transition: -webkit-transform 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+}
+.about{
+    padding: 70px 0;
+}
+.lead1{
+    font-size: 1rem;
+    color: #888;
+}
+
+.features{
+    padding: 50px 0;
+    background-color: #EEE;
+}
+.faetures .row .col-lg-3 p{
+    text-align: left;
+}
+
+i{
+    padding-top: 20px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.testimonials {
+    margin: 50px 0;
+}
+
+
+.testimonials .carousel-item{
+    height:200px;
+}
+.testimonials .carousel-inner{
+    min-height: 200px;
+}
+
+.testimonials .lead{
+    color:#888;
+}
+.testimonials .carousel-item .lead span{
+    font-weight: bold;
+}
+.testimonials .slide{
+    height:300px;
+}
+
+.testimonials .carousel-indicators li{
+    border:3px solid black;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+
+    transition: all 1s ease;
+}
+.testimonials .carousel-indicators li:first-of-type div{
+    border-radius: 50%;
+    height: 70px;
+    background: url('../photos/51.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 100%;;
+}
+.testimonials .carousel-indicators li:nth-of-type(2) div{
+    border-radius: 50%;
+    height: 70px;
+    background: url('../photos/54.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 100%;;
+}
+.testimonials .carousel-indicators li:last-of-type div{
+    border-radius: 50%;
+    height: 70px;
+    background: url('../photos/53.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 100%;;
+}
+
+.price-table{
+    background-color: #EEE;
+    padding: 40px 0;
+}
+.price-table .price-box{
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+.price-table h1{
+    margin-bottom: 50px;
+}
+.price-table .price-box h3{
+    margin:5px 0 15px;
+}
+.price-table .price-box p{
+    font-size: 35px;
+    font-weight: bold;
+    width:100px;
+    height:100px;
+    background-color: #eeeeee8c;
+    line-height: 100px;
+    border-radius: 50%;
+}
+.our-team{
+    background: url('../photos/animated-gifs-corporate-training.gif') no-repeat center center ;
+    background-size: cover;
+    width: 100%;
+    min-height:500px;
+    color: white;
+}
+.team{
+    background-color: rgba(0,0,0,.7);
+    min-height: 500px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our-team h1{
+    margin-bottom: 60px;
+}
+.a{
+    background: url('../photos/man-in-black-suit-jacket-standing-near-railings-3778876.jpg') no-repeat top center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+    min-height: 250px;
+}
+.b{
+    background: url('../photos/press-conference-interview-man-person-32976.jpg') no-repeat top center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 250px;
+}
+.c{
+    background: url('../photos/man-in-white-dress-shirt-holding-suit-jacket-1043474.jpg') no-repeat top center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 250px;
+}
+.d{
+    background: url('../photos/man-in-tailored-suit.jpg') no-repeat top center  ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 250px;
+}
+.person div{
+    border-radius: 50%;
+}
+.person h3{
+    font-size: 25px;
+    margin-top: 25px;
+}
+.person h3 ,.person p{
+    color: #EEE;
+}
+.person p{
+    margin-bottom: 0;
+}
+.person i{
+    color: white;
+    margin-bottom: 20px;
+}
+.subscribe{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #EEE;
+}
+.subscribe h1{
+    color: #888;
+    padding-bottom: 20px;
+}
+.subscribe h3{
+    padding-bottom: 30px;
+}
+.subscribe .form-control{
+    width: 300px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+.statistics{
+    background: url('../photos/42.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 450px;
+}
+.shadow{
+    background-color: rgba(0,0,0,.7);
+    min-height: 450px;
+    color: #dfdede;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.statistics h1{
+    margin-bottom: 40px;
+}
+.statistics i{
+    color: #dfdede;
+}
+.statistics .stats{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.statistics .stats:hover{
+    color: white;
+    border: 2px solid white;
+}
+.statistics p{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.statistics span{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.our-skills h1{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.our-skills .progress-bar-animated{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.our-skills button{
+    margin-bottom: 30px;
+}
+.our-skills .progress {
+    height: 30px;
+    margin-bottom: 29px;
+}
+.skill-names h3 ,.skill-names p{
+    margin-bottom: 20px;
+}
+.contact-us{
+    background: url('../photos/Phone-Email-Mail-Contact-Contact-Us-Inbox-2993000.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 550px;
+}
+.shadow2{
+    min-height: 550px;
+    background-color: rgba(0,0,0,.7);
+    color: whitesmoke;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.contact-us p{
+    margin-bottom: 50px;
+}
+.contact-us {
+    border-radius: 6px;
+    height:100px
+}
+.contact-us input{
+    height:46px
+}
+#message{
+    height:108px;
+}
+.contact-us button{
+    height:46px
+}
+.footer{
+    background-color: #000;
+    padding-top: 30px;
+    color: #AAA;
+}
+.footer div{
+    color: #AAA;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.footer .three-columns li:hover{
+    color: #FFF;
+}
+.footer .media div:hover{
+    color: #FFF;
+}
+.footer h3{
+    letter-spacing: 1px;
+    margin: 30px 0 20px;
+}
+.footer .three-columns li{
+    width: 33.33%;
+    padding: 5px 0;
+    float: left;
+}
+
+.footer .social-list{
+    display: inline-block;
+}
+.footer .social-list div{
+    margin-right: 8px;
+    margin-top: 20px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: .6;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.footer .social-list div:hover{
+    opacity: 1;
+}
+.footer  .social-list div:first-of-type{
+    background: url('../photos/facebook.png') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.footer  .social-list div:nth-of-type(2){
+    background: url('../photos/twitter.png') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.footer  .social-list div:nth-of-type(3){
+    background: url('../photos/instgram.png') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.footer  .social-list div:nth-of-type(4){
+    background: url('../photos/linkedin.png') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.footer  .social-list div:last-of-type{
+    background: url('../photos/youtube.png') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.media img{
+    width: 54px;
+    height: 54px;
+}
+.footer .img-thumbnail{
+    background-color: rgba(0,0,0,.2);
+    border:  1px solid #444;
+    margin-bottom: 8px;
+}
+.footer .copyright{
+    background-color: #222;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.load-wrapper{
+    width:100%;
+    height:100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 1, 41);
+    align-items:center;
+    transition: all 0.5s ease;
+    z-index: 99999;
+}
+.loader-wrapper-finish{
+    opacity: 0;
+    pointer-events: none;
+}
+#center-div {
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    -webkit-box-shadow:0 0 50px blue; 
+    -moz-box-shadow: 0 0 50px blue; 
+    box-shadow:0 0 50px blue;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#center-div div {
+    font-size: 60px;
+    background-color: rgb(0, 1, 41);
+    display: inline-block;
+    color: rgb(174, 215, 241);
+    border: 2px solid rgb(107, 180, 243);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    -webkit-animation-name: inner-center-div;
+    -webkit-animation-duration: 4s; 
+    -webkit-animation-iteration-count: infinite; 
+    animation-name: inner-center-div;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes inner-center-div {
+    0% {transform: scale(1.0);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1.0);}
+}
+
+
+@keyframes inner-center-div {
+    0% {transform: scale(1.0);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1.0);}
+}
+
+
+
+
+#center-div div p {
+    margin-top: 25%;
+    font-family: 'Lobster', cursive;
+}

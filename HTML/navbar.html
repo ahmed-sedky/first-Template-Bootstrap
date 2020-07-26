@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../CSS/bootstrap.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/default-theme.css">
+    <link rel="stylesheet" href="../CSS/media.css"> 
+    <script src="https://kit.fontawesome.com/be14abca77.js" crossorigin="anonymous"></script>
+    <title>Navbar</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+    <div class="container">
+        <a class="navbar-brand" href="#">Web <mark>Design</mark></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item active h-100">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link" href="#">About us</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link" href="#">Contacts</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="#">Company</a>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Programming</a>
+            <a class="dropdown-item" href="#">Web Design</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Web Hosting</a>
+            </div>
+        </li>
+        <!--<li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+        -->
+        </ul>
+        
+    </div>
+    </div>
+    
+    </nav>
+    <section class="option-box">
+        <div id="color" class="color-option ">
+            <h4>Color Option</h4>
+            <ul class="list-unstyled">
+                <li data-value="../CSS/default-theme.css" id='red'></li>
+                <li data-value="../CSS/gold-theme.css" id="gold"></li>
+                <li data-value="../CSS/green-theme.css" id="green"></li>
+                <li data-value="../CSS/dark-green-theme.css" id="darkGreen"></li>
+                <li data-value="../CSS/blue-theme.css" id="blue"></li>
+            </ul>
+        </div>
+        <i id='gear' class="fas fa-cog gear-checker"></i>        
+    </section>
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('../photos/toddler-boy-with-teddy-bear.jpg')">
+            <div class="carousel-caption d-none d-sm-block">
+                <h2 class="display-4">Programming</h2>
+                <p class="lead">This is a description for the first slide.</p>
+                <div class="btn btn-primary"> Read More</div>
+                <div class="btn btn-danger"> Buy Now</div>
+            </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('../photos/coding-on-laptop.jpg')">
+            <div class="carousel-caption d-none d-sm-block">
+                <h2 class="display-4">Web Design</h2>
+                <p class="lead">This is a description for the second slide.</p>
+                <div class="btn btn-primary"> Read More</div>
+                <div class="btn btn-danger"> Buy Now</div>
+            </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('../photos/photo-1592485682080-ce097a7fa3c6.jpg')">
+            <div class="carousel-caption d-none d-sm-block">
+                <h2 class="display-4">Hosting</h2>
+                <p class="lead">This is a description for the third slide.</p>
+                <div class="btn btn-primary"> Read More</div>
+                <div class="btn btn-danger"> Buy Now</div>
+            </div>
+        </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+    <section class="about text-center">
+        <div class="container"> <!-- talama m4 hst3ml grid system yb2a mt3ml4 row-->
+            <h1>Meet Our Template <span>Web Design</span> </h1>
+            <p class="lead lead1">Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>nulla</strong>  ex ducimus id voluptatem dolorem dolor enim quisquam magni, iusto, animi nostrum reiciendis. Dolorum cum provident, facilis tenetur praesentium ab.</p>
+        </div>
+    </section>
+    <div class="features text-center">
+        <div class="container">
+            <h1>our Features</h1>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feat"></div>
+                    <i class="fas fa-check-circle"></i>
+                    <h4>100% Responsive</h4>
+                    <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ex quam amet, nisi nobis libero! Et, neque iusto. Animi est velit tempora autem? Fugiat pariatur odio officiis iusto fugit laborum?</p>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feat"></div>
+                    <i class="far fa-thumbs-up"></i>
+                    <h4>Retina Ready</h4>
+                    <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ex quam amet, nisi nobis libero! Et, neque iusto. Animi est velit tempora autem? Fugiat pariatur odio officiis iusto fugit laborum?</p>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feat"></div>
+                    <i class="far fa-grin-hearts"></i>
+                    <h4>Awesome Display</h4>
+                    <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ex quam amet, nisi nobis libero! Et, neque iusto. Animi est velit tempora autem? Fugiat pariatur odio officiis iusto fugit laborum?</p>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feat"></div>
+                    <i class="fas fa-pencil-alt"></i>
+                    <h4>Well Documented</h4>
+                    <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ex quam amet, nisi nobis libero! Et, neque iusto. Animi est velit tempora autem? Fugiat pariatur odio officiis iusto fugit laborum?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimonials text-center">
+        <div class="container">
+            <h1>What Our Clients Say?</h1>
+            <div id="carouselTestimonials" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                <li data-target="#carouselTestimonials" data-slide-to="0" class="active">
+                    <div></div>
+                </li>
+                <li data-target="#carouselTestimonials" data-slide-to="1">
+                    <div></div>
+                </li>
+                <li data-target="#carouselTestimonials" data-slide-to="2">
+                    <div></div>
+                </li>
+                </ol>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption lead  ">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quis quam eius eos voluptatibus quasi aperiam amet, sit autem animi voluptas laborum ipsum qui, totam minus quia minima explicabo eveniet.</p>
+                        <span>Ahmed Hossam</span>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption lead   ">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit enim eius eum a praesentium facere architecto reiciendis laborum quia. Sequi consectetur aliquid ratione id dolores? Labore blanditiis quaerat voluptatum nisi.</p>
+                        <span>Muhammed Ahmed</span>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption lead  ">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eaque officiis quae debitis at quo, quod aspernatur quaerat molestiae. At molestiae facilis inventore, deserunt aliquam praesentium! Qui magni ipsa fuga.</p>
+                        <span>Abdelrahman Mohamed</span>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+    <div class="price-table text-center ">
+        <div class="container">
+            <h1>Our Amazing Prices</h1>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="price-box">
+                        <h3 class="text-primary">Hosting</h3>
+                        <p class=" mx-auto"> $40 </p>
+                        <ul class="list-unstyled ">
+                            <li>Space: 30GB</li>
+                            <li>Emails: 20</li>
+                            <li>Ips: 2Ip</li>
+                            <li>Database: 10</li>
+                            <li>Ftp Accounts: 5</li>
+                        </ul>
+                        <a href="#" class=" btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="price-box">
+                        <h3 class="text-success">Vps</h3>
+                        <p  class=" mx-auto"> $50 </p>
+                        <ul class="list-unstyled ">
+                            <li>Space: 50GB</li>
+                            <li>Emails: 30</li>
+                            <li>Ips: 5Ip</li>
+                            <li>Database: 20</li>
+                            <li>Ftp Accounts: 10</li>
+                        </ul>
+                        <a href="#" class=" btn btn-success">Order Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="price-box">
+                        <h3 class="text-warning">Dedicated</h3>
+                        <p class=" mx-auto"> $70 </p>
+                        <ul class="list-unstyled ">
+                            <li>Space: 80GB</li>
+                            <li>Emails: 35</li>
+                            <li>Ips: 5Ip</li>
+                            <li>Database: 20</li>
+                            <li>Ftp Accounts: 15</li>
+                        </ul>
+                        <a href="#" class=" btn btn-warning">Order Now</a>                    
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="price-box">
+                        <h3 class="text-danger">Cloud</h3>
+                        <p class="d-block mx-auto"> $90 </p>
+                        <ul class="list-unstyled ">
+                            <li>Space: 200GB</li>
+                            <li>Emails: 80</li>
+                            <li>Ips: 10Ip</li>
+                            <li>Database: 60</li>
+                            <li>Ftp Accounts: 25</li>
+                        </ul>
+                        <a href="#" class=" btn btn-danger">Order Now</a>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="our-team text-center">
+        <div class="team">
+            <div class="container">
+                <h1>Meet Our Team</h1>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="person">
+                            <div class="a"></div>
+                            <h3>Smill Matheo</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, atque maiores reprehenderit omnis </p>
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>                            
+                            <i class="fab fa-google-plus"></i>                        
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="person">
+                            <div class="b"></div>
+                            <h3>Chandler Beng</h3>
+                            <p>distinctio exercitationem officia magni laborum reiciendis delectus repellat? Atque dolor sapiente duc.</p>
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>                            
+                            <i class="fab fa-google-plus"></i> 
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="person">
+                            <div class="c"></div>
+                            <h3>Ross Giller</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi magni voluptate impedit </p>
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>                            
+                            <i class="fab fa-google-plus"></i> 
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="person">
+                            <div class="d"></div>
+                            <h3>Joey Tribinay</h3>
+                            <p>saepe odio ratione optio corrupti explicabo commodi quam fuga qui. Pariatur reprehenderit incidunt ea.</p>
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>                            
+                            <i class="fab fa-google-plus"></i> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="subscribe text-center">
+        <div class="container">
+            <h1> Keep In Touch</h1>
+            <h3> Sign Up for NewsLetter Don't Worry About Spams We Hate It Too</h3>
+            <form class="form-inline d-block mx-auto">
+                <input class="form-control" type="text" placeholder="Write Your Email">
+                <button class="btn btn-danger btn-lg "> subscribe</button>
+            </form>
+        </div>
+    </div>
+    <section class="statistics text-center">
+        <div class="shadow">
+            <div class="container">
+                <h1>Our Main statistics</h1>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="stats">
+                            <i class="fas fa-users fa-6x"></i>
+                            <p> 10,500</p>
+                            <span> Satisfied Users</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="stats">
+                            <i class="fas fa-comments fa-6x"></i>
+                            <p>35,450</p>
+                            <span> Posted Comments</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="stats">
+                            <i class="fas fa-suitcase fa-6x"></i>
+                            <p>8,250</p>
+                            <span>Projects Done</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="stats">
+                            <i class="fas fa-bell fa-6x"></i>
+                            <p>102,000</p>
+                            <span>Message Archieved</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-skills text-center">
+        <div class="container">
+            <h1>Our Skills</h1>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="skill-progress ">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">HTML</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">CSS</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">JavaScript</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">Bootstrap </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 .offset-1">
+                    <div class="skill-names ">
+                        <h3>About The Team</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aperiam, itaque mollitia veniam rem sint enim eos aut commodi voluptatibus, assumenda impedit earum eaque harum id praesentium maiores quasi tenetur.</p>
+                        <button class="btn btn-danger">Talk With A Proffessional</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us text-center">
+        <div class="shadow2">
+            <div class="container">
+                <i class="fas fa-headphones fa-7x"></i>
+                <h1>Tell Us What You Feel</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut reprehenderit amet deleniti iste et fugiat commodi recusandae, dicta maiores illo cum itaque sunt vel? Odit culpa deserunt distinctio fugit sed.</p>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <form action="" role="form">
+                            <div class="form-group">
+                                <input class="form-control " type="text" placeholder="User Name">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="E-Mail">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Password">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-6">
+                        <form action="" role="form">
+                            <div class="form-group">
+                                <input class="form-control " id="message" type="text" placeholder="Your Message">
+                            </div>
+                            <button type="button" class="btn btn-danger btn-block"> contact Us</button>
+                        </form>
+                    </div>
+                </div
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class=" col-lg-4 col-md-6">
+                    <h3>Sitemap</h3>
+                    <ul class="list-unstyled three-columns">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Company</li>
+                        <li>Code</li>
+                        <li>Design</li>
+                        <li>Host</li>
+                        <li>Solution</li>
+                        <li>Sitemap</li>
+                        <li>Contact Us</li>
+                    </ul>
+                    <div class="social-list">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-6">
+                    <h3>Latest Article</h3>
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <img src="../photos/Apps-gnucash-icon-icon.png" class="mr-3" alt="...">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">List-based media object</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque 
+                            </div>
+                        </li>
+                        <li class="media my-4">
+                            <img src="../photos/phone-icon.png" class="mr-3" alt="...">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">List-based media object</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque 
+                            </div>
+                        </li>
+                        <li class="media">
+                            <img src="../photos/emerald-theme-manager-icon-icon.png" class="mr-3" alt="...">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">List-based media object</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque 
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h3>Our Awesome Projects</h3>
+                    <img class="img-thumbnail" src="../photos/camera-icon.png">
+                    <img class="img-thumbnail" src="../photos/Image-ready-CS-2-icon.png">
+                    <img class="img-thumbnail" src="../photos/Images-icon.png" alt="">
+                    <img class="img-thumbnail" src="../photos/Folder-Pictures-icon.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="copyright text-center">
+            Copy Right &copy; 2020 <span>Ahmed Sedky Design's</span>
+        </div>
+    </div>
+    <div  class="load-wrapper">
+        <div id="particles-background" class="vertical-centered-box"></div>
+        <div id="center-div">
+        <div>
+            <p>Start<br>Here</p>
+        </div>
+        </div>
+    </div>
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="../Script/main.js"></script>
+</body>
+</html>
