@@ -79,6 +79,9 @@ body{
     float: left;
     width: 200px;
 }
+.hide{
+    display: none;
+}
 .option-box .color-option ul li{
     width: 20px;
     height: 20px;
@@ -86,10 +89,6 @@ body{
     cursor: pointer;
     display: inline-block;
 }
-.hide{
-    display: none;
-}
-
 
 .option-box .gear-checker{
     color: #FFF;

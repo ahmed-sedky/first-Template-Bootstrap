@@ -6,7 +6,8 @@ header .display-4,
 .testimonials .carousel-item .lead span,
 .price-table .price-box p,
 .footer h3,
-.footer .copyright span
+.footer .copyright span,
+.contact-us i
 {
     color: rgb(0, 123, 255);
 }
